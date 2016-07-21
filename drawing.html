@@ -16,19 +16,18 @@ integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En
     font-size: 20px;
     color: white ;
 }
-  .menu-border
-  {
-    background-color: pink;
-    font-family: harrington;
-    font-size: 20px;
-    background-color: white;
-    text-align: center;
-    border: 2px ;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-   
-  }
+  .colored-row {
+      background-color: white;
+      text-align: center;
+      font-family: harrington;
+      color: red;
+      font-size: 20px;
+      border: 2px #ffb3d9;
+      border-radius: 12px;
+      margin-right: 40px;
+      margin-left: 50px;
+      padding-right: 10px;
+    }
 
   p {
     font-size: 5px;
@@ -40,15 +39,15 @@ integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En
     Welcome to ZIG ZAG
   </center>
 </h1>
-<div> 
+
+<div class="container"> 
     <div class="row">
-      <div class="col-md-3">
-        <a class="menu-border" href="index.html"> Home </a>
-      </div>
-        <a class="menu-border" href="drawing.html">Drawing101</a></div>
-      <div class="col-md-3">
-        <a class="menu-border" href="lifehacks.html">Lifehacks</a></div>
+      <div class="col-md-3 colored-row"><a href="index.html">Home</a></div>
+      <div class="col-md-3 colored-row"><a href="drawing.html">Drawing</a></div>
+      <div class="col-md-3 colored-row"><a href="lifehacks.html">Life Hacks!</a></div>
     </div>
+  </div>
+
 
   <center>These are some simple steps to help you draw some parts of the face. 
   I hope this will help you if you are struggling to draw the nose,eyes, ears, or the mouth.</center></font></p>
