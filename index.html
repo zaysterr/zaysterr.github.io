@@ -82,34 +82,7 @@
     }
     
   </style>
-  <script>
-    var currentImageIndex = 0;
-    
-    var images = [
-      "http://www.dumpaday.com/wp-content/uploads/2012/10/life-hacks-dumpaday-30.jpg",
-      "new.jpg"
-      ];
-      
-      function updateImage() {
-        
-				var image = document.getElementById("currentImage");
-
-				image.src = images[currentImageIndex];
-      
-        currentImageIndex = currentImageIndex + 1;
-        
-        if(currentImageIndex >= images.length)
-        	currentImageIndex = 0;
-}
-      
-      setInterval(updateImage, 1000);
-      
-      
-      
-}
-    
-    
-  </script>
+  
 </head>
 
 
@@ -129,7 +102,7 @@
 
 <p class="text">This is our blog where we post links to places around the web that relate to DIY projects, Life Hacks, and Drawing Tutorials!</p-text>
 
-<center><img src="freeedom-pic.jpg"> <img id="currentImage" /> <img src="summer beach.png"><center>
+<center><img src="freeedom-pic.jpg"><img src="summer beach.png"><center>
   
 <b><hr width="600"></b>
   
