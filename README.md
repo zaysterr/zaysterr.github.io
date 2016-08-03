@@ -1,3 +1,3 @@
 # zaysterr.github.io
 
-Hola, this is my rough draft of my website.
+ZIG ZAG is a fun blog where anyone can spend their time procratinating here on our website by reading about life hacks and drawing tutorials! Instead of studying for that huge final tomorrow, why not learn how to sketch an eye or make an easy ice cream sandwich?
