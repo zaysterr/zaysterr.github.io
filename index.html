@@ -113,7 +113,32 @@ div.desc {
 		
 	}
   </script>
+<script>
+    
+      var currentImageIndex = 0;
+      
+      var images = [							
+        "eye 1.jpg",
+        "eye 2.jpg",
+        "IMG_1837.JPG",
+        
+      ];
 
+	function updateImage() {
+
+	var image = document.getElementById("currentImage");
+
+	image.src = images[currentImageIndex];
+        
+        currentImageIndex = currentImageIndex + 1;
+        
+        if(currentImageIndex >= images.length)
+        	currentImageIndex = 0;
+
+	}
+      
+      setInterval(updateImage, 2000);
+      </script>
 </head>
 
 
@@ -147,7 +172,7 @@ div.desc {
 <div class="container">
 	<div class="row">
 <div class="col-md-4 basic-row"><div class="img">
-  <a target="_blank" href="http://cdn7.littlethings.com/app/uploads/2015/04/714-600x450.jpg"><img src="http://cdn7.littlethings.com/app/uploads/2015/04/714-600x450.jpg" alt="Chapstick Hack" width="600" height="400"></a>
+  <a target="_blank" href="<img id="currentImage" />"><img id="currentImage" />" alt="Eye Tutorial" width="600" height="400"></a>
   <div class="desc">Add a description of the image here</div>
 </div>
 	</div>
